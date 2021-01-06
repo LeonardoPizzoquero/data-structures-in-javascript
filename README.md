@@ -1,2 +1,3 @@
-# data-structures-in-javascript
-Examples of data structures in javascript
+# Data structures in Javascript
+
+A list with all data structures algorithms studied by me and writed in javascript.
