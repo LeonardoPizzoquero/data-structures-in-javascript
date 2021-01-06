@@ -50,7 +50,7 @@ class MyLinkedList {
 
 const linkedList = new MyLinkedList()
 
-console.log('Lista vazia?', linkedList.is_empty())
+console.log('Empty list?', linkedList.is_empty())
 
 linkedList.insert_node_to_head(new Node({ id: 1, name: 'John', age: 32 }))
 
@@ -58,8 +58,8 @@ linkedList.insert_node_to_head(new Node({ id: 2, name: 'Barry', age: 33 }))
 
 linkedList.insert_node_to_tail(new Node({ id: 3, name: 'Joe', age: 34 }))
 
-console.log('Lista vazia?', linkedList.is_empty())
+console.log('Empty list?', linkedList.is_empty())
 
-console.log('Primeiro elemento:', linkedList.head())
+console.log('First node:', linkedList.head())
 
-console.log('Último elemento:', linkedList.tail())
+console.log('Last node:', linkedList.tail())
